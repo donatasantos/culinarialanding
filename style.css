@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;900&family=Roboto+Condensed&display=swap');
+
+* {
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh; 
+}
+
+.logo-container img {
+    max-width: 500px; 
+    max-height: 200px; 
+}
+
+.banner {
+    padding: 200px;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(#00000099, rgba(0, 0, 0, 0.823), rgba(0, 0, 0, .6)), url(https://img.freepik.com/fotos-gratis/chef-colocando-ervas-na-refeicao-gourmet_23-2148516908.jpg?w=900&t=st=1700918620~exp=1700919220~hmac=342a0c54c3419f4b7942038704f1c11ffd2028f64ca6988566dbcac3bfdd2fe1);
+    background-size: cover;
+    max-height: 605px;
+    background-position: center bottom;
+    border-bottom: 1px solid #db9b3380;
+}
+
+.banner-content {
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    width: 600px;
+}
+
+.banner-content p {
+    font-size: 30px;
+}
+
+
+.banner h1 {
+    font-size: 3rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: transparent;
+    background: -webkit-linear-gradient(#db9b3380, #b78114);
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+h2 {
+    text-transform: uppercase;
+    color: #b78114;
+    font-weight: bold;
+    font-size: 2rem;
+    letter-spacing: 4px;
+}
+
+p {
+    color: white;
+    font-size: 1.2rem;
+    font-weight: regular;
+}
+
+ul {
+    color: white;
+    font-size: 1rem;
+    font-weight: regular;
+}
+
+button {
+    width: 326px;
+    height: 57px;
+    color: #b78114;
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+
+    background: none;
+    border-image-slice: 1;
+    border-width: 4px;
+    border-image-source: linear-gradient(#b78114, #db9b3380);
+
+}
+
+#course-content {
+    width: 800px;
+    margin: 5rem auto;
+    text-align: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+#course-content span {
+    color: #000000;
+    font-weight: bold;
+}
+
+.modules-list {
+    color: white;
+    text-align: center;
+    align-content: center;
+    
+}
+
+.module {
+    width: 700px;
+    height: 51px;
+    background-color:#803300 ;
+    border: 1px solid #803300;
+    border-radius: 100px;
+    margin: auto;
+    margin-bottom: 1rem;
+    box-sizing: border-box;
+    padding: 1rem;
+    box-shadow: inset -2px 6px 5px 0px rgba(0,0,0,0.5);
+}
+
+#transform-world p{
+    color:#b78114;
+    font-size: 2.5rem;
+    font-weight: 900;
+    text-shadow: 3px 2px #000000;
+    max-width: 345px;
+}
+
+#transform-world {
+    height: 560px;
+    background-size: cover;
+    background-image: url(https://img.freepik.com/fotos-gratis/chef-feminina-cortando-vegetais-na-cozinha_23-2148763134.jpg?w=900&t=st=1700925058~exp=1700925658~hmac=672cc047b3ad2387de8f6de77125a61eade76102f6a9794dae5ab5e88d4f9af8);
+    background-attachment: fixed;
+    background-position: 100% 100%;
+    border-top: 1px solid #b78114;
+    border-bottom: 1px solid #b78114;
+    padding: 200px;
+    filter:brightness(70%)
+}
+
+
+#professional-challenges{
+    text-align: center;
+    margin: 100px auto;
+    width: 800px;
+}
+
+footer{
+    padding: 50px;
+    text-align: center;
+    border-top: 1px solid #803300;
+    background-image: linear-gradient(to top, #803300, #00000099);
+}
+
+footer a{
+    color: #b78114;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.certificacao {
+    width: 300px
+}
